@@ -1,0 +1,24 @@
+body{
+    display:block;
+    margin: auto;
+    width: 50%;
+}
+em {
+    color: red;
+}
+span {
+    color:blue;
+}
+p {
+    text-align: justify;
+}
+
+table,
+td,th{
+    border:1px solid;
+}
+td:nth-child(1),th:nth-child(2){
+    border-color:red!important;
+    color: red
+    ;
+}
